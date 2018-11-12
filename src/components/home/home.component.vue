@@ -8,10 +8,10 @@
           <h3 class="titre">{{page.description}}</h3>
           <router-link class="btn" :to="page.c2a_link">{{page.c2a_label}}</router-link>
         </div>
-        <a class="titre scroll swiper-button-next" slot="button-next">
+        <span class="titre scroll">
           <span></span>
           {{page.next_label}}
-        </a>
+        </span>
       </swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
@@ -107,22 +107,5 @@
 </script>
 
 <style lang="scss">
-  .w1{
-    background-image: url("./../../assets/images/base_blured.png");
-  }
-  .w1b{
-    background-image: url("./../../assets/images/base_blured2.png");
-  }
-  .w2{
-    background-image: url("./../../assets/images/jim_blured.png");
-  }
-  .w3{
-    background-image: url("./../../assets/images/T_A-youtube_1000_500.jpg");
-  }
-  .w4{
-    background-image: url("./../../assets/images/Daniel-Bodi-Portfolio_blured.jpg");
-  }
-  .w5{
-    background-image: url("./../../assets/images/Auto-Ecole-Starter_blured.jpg");
-  }
+
 </style>

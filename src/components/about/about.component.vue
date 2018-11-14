@@ -66,7 +66,7 @@
           </p>
         </div>
         <div class="download_cv grid grid--alignMiddle grid--alignCenter">
-          <a target="_blank" class="btn btn--secondary" href="app/assets/images/BODI Daniel CV.pdf">Download my cv</a>
+          <a target="_blank" class="btn btn--secondary" href="@/assets/images/BODI Daniel CV.pdf">Download my cv</a>
         </div>
       </div>
     </div>
